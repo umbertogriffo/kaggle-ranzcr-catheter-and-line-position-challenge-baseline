@@ -1,1 +1,1 @@
-# kaggle-ranzcr-catheter-and-line-position-challenge-baseline
+# RANZCR CLiP - Catheter and Line Position Challenge - Baseline
