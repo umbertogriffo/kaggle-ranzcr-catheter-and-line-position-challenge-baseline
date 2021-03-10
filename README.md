@@ -1,6 +1,6 @@
 # RANZCR CLiP - Catheter and Line Position Challenge - Baseline
 
-It was a while I'm not tackling a computer vision challenge. I'm quite surprised that I still know one thing or two after one year and a half. In this case, the challenge is to classify the presence and correct placement of tubes on chest x-rays to save lives. Early recognition of malpositioned tubes is the key to preventing dangerous complications, mainly now that millions of COVID-19 patients need these tubes and lines. 
+The challenge is to classify the presence and correct placement of tubes on chest x-rays to save lives. Early recognition of malpositioned tubes is the key to preventing dangerous complications, mainly now that millions of COVID-19 patients need these tubes and lines. 
 
 I've implemented on Colab a notebook where I'll show how to apply the following concepts to get **0.96+ Area under the ROC Curve**:
 * **Transfer Learning**: Keras provides several pre-trained models, and we can use them, such as the Xception and InceptionResNetV2, for our task.
