@@ -4,6 +4,8 @@ The challenge is to classify the presence and correct placement of tubes on ches
 
 I've implemented on Colab a notebook where I'll show how to apply the following concepts to get **0.96+ Area under the ROC Curve**:
 * **Transfer Learning**: Keras provides several pre-trained models, and we can use them, such as the Xception and InceptionResNetV2, for our task.
+* **Focal loss**: since we have highly imbalanced classes. It down-weights well-classified examples and focuses on hard examples. The loss value is much high for a sample which is misclassified by the classifier as compared to the loss value corresponding to a well-classified example.
+* **Multi-label data stratification**: also to handle the imbalanced classes.
 * **Data Augmentation**: Data augmentation is significant to avoid overfitting. I used some random augmentations like horizontal/vertical flips, saturation, brightness, and contrast.
 * **Best Learning Rate**: Find the best possible learning rate for the model. This is done by plotting a graph between the learning rate and the loss function to check where the loss starts decreasing.
 * **Learning rate annealing**: Cosine annealing learning rate scheduler with periodic restarts https://arxiv.org/abs/1608.03983.
